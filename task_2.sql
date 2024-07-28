@@ -1,4 +1,8 @@
 -- Create the books table
+CREATE TABLE AUTHORS (
+    author_id INT AUTO_INCREMENT PRIMARY KEY,
+    author_name VARCHAR(215) NOT NULL
+);
 CREATE TABLE BOOKS (
     book_id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(130) NOT NULL,
@@ -9,10 +13,7 @@ CREATE TABLE BOOKS (
 );
 
 -- Create the authors table
-CREATE TABLE AUTHORS (
-    author_id INT AUTO_INCREMENT PRIMARY KEY,
-    author_name VARCHAR(215) NOT NULL
-);
+
 
 -- Create the customers table
 CREATE TABLE CUSTOMERS (
