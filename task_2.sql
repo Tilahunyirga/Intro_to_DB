@@ -4,8 +4,8 @@ CREATE DATABASE IF NOT EXISTS alx_book_store;
 USE alx_book_store;
 
 CREATE TABLE IF NOT EXISTS authors (
-      author_id INT AUTO_INCREMENT PRIMARY KEY,
-    author_name VARCHAR(215) NOT NULL
+   author_id INT AUTO_INCREMENT PRIMARY KEY,
+   author_name VARCHAR(215) NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS books (
