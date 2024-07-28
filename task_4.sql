@@ -1,3 +1,4 @@
+USE alx_book_store;
 SELECT 
     COLUMN_NAME AS 'Column Name', 
     COLUMN_TYPE AS 'Column Type', 
